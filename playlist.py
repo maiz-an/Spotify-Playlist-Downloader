@@ -133,7 +133,7 @@ class SpotifyPlaylistDownloader:
         try:
             # Create custom output template
             artists = " & ".join(track_info['artists'])
-            safe_filename = re.sub(r'[^\w\s-]', '', f"{artists} - {track_info['name']}")
+            safe_filename = re.sub(r'[^\w\s-]', '', f"{track_info['name']} - {artists}")
             
             custom_opts = self.ydl_opts.copy()
             custom_opts['outtmpl'] = os.path.join(output_dir, f"{safe_filename}.%(ext)s")
