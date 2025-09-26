@@ -10,13 +10,13 @@ import yt_dlp
 import requests
 
 # Spotify API credentials (SET HERE)
-SPOTIFY_CLIENT_ID = "65ba8fd119a5490f99306a9166318ee1" #Replace with your client id
-SPOTIFY_CLIENT_SECRET = "529eae2a74c4449f892facf3d7ad2050" #Replace with your client secret
+SPOTIFY_CLIENT_ID = "SPOTIFY_CLIENT_ID" #Replace with your client id
+SPOTIFY_CLIENT_SECRET = "SPOTIFY_CLIENT_ID" #Replace with your client secret
 
 class SpotifyPlaylistDownloader:
     def __init__(self, client_id: str, client_secret: str):
         """Initialize the downloader with Spotify credentials."""
-        if client_id == "your_client_id_here" or client_secret == "your_client_secret_here":
+        if client_id == "your_client_id_here" or client_secret == "your_client_secret_here": # Dont chnage this line
             print("❌ Please set your Spotify API credentials in the script!")
             print("Visit: https://developer.spotify.com/dashboard/")
             sys.exit(1)
