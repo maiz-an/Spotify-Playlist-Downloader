@@ -51,7 +51,7 @@ FFmpeg is required for extracting and converting audio to MP3 format. Installati
 
 #### Windows
 
-1. Download the latest FFmpeg build from [ffmpeg.org/download.html](https://ffmpeg.org/download.html) (choose a "Windows builds from gyan.dev" or similar trusted source).
+1. Download the FFmpeg build from gyan.dev [Download](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z) ( or visit gyan.dev for other builds.).
 2. Extract the ZIP file to a folder, e.g., `C:\ffmpeg`.
 3. Add FFmpeg to your system's PATH:
    - Search for "Environment Variables" in the Start menu.
